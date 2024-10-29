@@ -127,18 +127,14 @@ main2:AddButton({
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
 		print("Loading vertex...")
-		wait(8)
-		print("Vertex Sucefully loaded!")
   	end    
 })
 
 main2:AddButton({
 	Name = "[🎃] MM2 Script (Overdrive H)",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/main/mm2%20halloween.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua"))()
 		print("Loading Overdrive H...")
-		wait(8)
-		print("Vertex Sucefully loaded!")
   	end    
 })
 
@@ -198,6 +194,13 @@ main3:AddButton({
   	end    
 })
 
+main3:AddButton({
+	Name = "YARHM",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-YARHM-12403"))()
+  	end    
+})
+
 main4:AddButton({
 	Name = "Build A Boat For Treasure",
 	Callback = function()
@@ -224,7 +227,7 @@ main5:AddButton({
 main5:AddButton({
 	Name = "Neko? 😳",
 	Callback = function()
-		print("Script not exists")
+		game.Players.LocalPlayer:Kick("STOP! Jesus cry when you do this things..")
   	end    
 })
 
