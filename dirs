@@ -1,0 +1,231 @@
+-- // SCRIPT MADE BY R3DDK PRODUCTIONS. ALL RIGHTS RESERVED.
+-- // REUPLOAD - 16:01 PM, 24/10/24
+
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source",true))()
+
+-- error("We're Sorry! This script cannot be loaded.")
+
+local OrionLib = loadstring(game:HttpGet(("https://pastebin.com/raw/whNGjhHc")))()
+
+local Window = OrionLib:MakeWindow({Name = "[🎃] Dirs Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local main1 = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://88099406992040",
+	PremiumOnly = false
+})
+
+local Section = main1:AddSection({
+	Name = "Movement"
+})
+
+local main2 = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://88099406992040",
+	PremiumOnly = false
+})
+
+local Section = main2:AddSection({
+	Name = "CREDITS BY R3DDK PRODUCTIONS"
+})
+
+local main3 = Window:MakeTab({
+	Name = "(Category 2) Scripts",
+	Icon = "rbxassetid://88099406992040",
+	PremiumOnly = false
+})
+
+local Section = main3:AddSection({
+	Name = "CREDITS BY R3DDK PRODUCTIONS"
+})
+
+local main4 = Window:MakeTab({
+	Name = "(Coming more Soon, Cat. 3) Scripts",
+	Icon = "rbxassetid://88099406992040",
+	PremiumOnly = false
+})
+
+local Section = main4:AddSection({
+	Name = "CREDITS BY R3DDK PRODUCTIONS"
+})
+
+local main5 = Window:MakeTab({
+	Name = "(Premium) Troll Scripts",
+	Icon = "rbxassetid://123721275564212",
+	PremiumOnly = true
+})
+
+local Section = main5:AddSection({
+	Name = "CREDITS BY R3DDK PRODUCTIONS"
+})
+
+main1:AddButton({
+	Name = "High Speed",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+  	end    
+})
+
+main1:AddButton({
+	Name = "Speed 30",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 35
+  	end    
+})
+
+main1:AddButton({
+	Name = "False 16 Speed",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 18
+  	end    
+})
+
+main1:AddButton({
+	Name = "Jump Power 100",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+  	end    
+})
+
+main1:AddButton({
+	Name = "Jump Power 150",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+  	end    
+})
+
+main1:AddButton({
+	Name = "Jump Power 200",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+  	end    
+})
+
+main1:AddButton({
+	Name = "Jump Power Normal",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
+})
+
+main1:AddButton({
+	Name = "Infinite Yield - Admin Commands V1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
+  	end    
+})
+
+main2:AddButton({
+	Name = "REDZ Hub Blox Fruits",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end    
+})
+
+main2:AddButton({
+	Name = "[🎃] MM2 Script (Vertex)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+		print("Loading vertex...")
+		wait(8)
+		print("Vertex Sucefully loaded!")
+  	end    
+})
+
+main2:AddButton({
+	Name = "[🎃] MM2 Script (Overdrive H)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/main/mm2%20halloween.lua"))()
+		print("Loading Overdrive H...")
+		wait(8)
+		print("Vertex Sucefully loaded!")
+  	end    
+})
+
+main2:AddButton({
+	Name = "[Gateway Error] MM2 Autofarm",
+	Callback = function()
+		print("Gateway Error: This is an older feature and cannot be loaded. Report bugs in my discord server!")
+  	end    
+})
+
+main2:AddButton({
+	Name = "Exy Babft",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))()
+  	end    
+})
+
+main2:AddButton({
+	Name = "[🎃] Babft candy autofarm",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/p7dBEhZ1"))()
+  	end    
+})
+
+main1:AddButton({
+	Name = "Fly Gui - by me_ozoneYT",
+	Callback = function()
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end    
+})
+
+main3:AddButton({
+	Name = "Brookhaven 🏡RP V2",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+  	end    
+})
+
+main3:AddButton({
+	Name = "Brookhaven 🏡RP V1",
+	Callback = function()
+		print("Gateway Error: This is an older feature and cannot be loaded. Report bugs in my discord server!")
+  	end    
+})
+
+main3:AddButton({
+	Name = "Driving Simulator - OP Hack",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/iERa4ke4", true))()
+  	end    
+})
+
+main3:AddButton({
+	Name = "[FLOOR 2] DOORS",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKing"))()
+  	end    
+})
+
+main4:AddButton({
+	Name = "Build A Boat For Treasure",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua"))()
+  	end    
+})
+
+main4:AddButton({
+	Name = "Kill UI",
+	Callback = function()
+		OrionLib:Destroy()
+  	end    
+})
+
+-- // troll scripts
+
+main5:AddButton({
+	Name = "Nameless Admin (Byfron Kick fixed)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source",true))()
+  	end    
+})
+
+main5:AddButton({
+	Name = "Neko? 😳",
+	Callback = function()
+		print("Script not exists")
+  	end    
+})
+
+OrionLib:Init()
