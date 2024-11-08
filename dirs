@@ -7,7 +7,7 @@
 
 local OrionLib = loadstring(game:HttpGet(("https://pastebin.com/raw/whNGjhHc")))()
 
-local Window = OrionLib:MakeWindow({Name = "[🎃] Dirs Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Dirs Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local main1 = Window:MakeTab({
 	Name = "Player",
@@ -123,7 +123,7 @@ main2:AddButton({
 })
 
 main2:AddButton({
-	Name = "[🎃] MM2 Script (Vertex)",
+	Name = "MM2 Script (Vertex)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
 		print("Loading vertex...")
@@ -131,7 +131,7 @@ main2:AddButton({
 })
 
 main2:AddButton({
-	Name = "[🎃] MM2 Script (Overdrive H)",
+	Name = "MM2 Script (Overdrive H)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua"))()
 		print("Loading Overdrive H...")
@@ -152,12 +152,13 @@ main2:AddButton({
   	end    
 })
 
+--[[
 main2:AddButton({
 	Name = "[🎃] Babft candy autofarm",
 	Callback = function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/p7dBEhZ1"))()
   	end    
-})
+})]]
 
 main1:AddButton({
 	Name = "Fly Gui - by me_ozoneYT",
@@ -227,7 +228,7 @@ main5:AddButton({
 main5:AddButton({
 	Name = "Neko? 😳",
 	Callback = function()
-		game.Players.LocalPlayer:Kick("STOP! Jesus cry when you do this things..")
+		game.Players.LocalPlayer:Kick("e")
   	end    
 })
 
